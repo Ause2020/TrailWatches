@@ -52,6 +52,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://trailwatches.vercel.app",
   },
+  verification: {
+    google: "SPVoeyIHa3t5IjBrJAEk0IU7ixdTs19TgB99ZT5qKoI",
+  },
 }
 
 export default function RootLayout({
