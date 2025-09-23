@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { Clock, Shield, Zap, Award, Star, ArrowRight, ExternalLink } from "lucide-react"
+import { Clock, Shield, Zap, Award, Star, ArrowRight, ExternalLink, Activity, MapPin } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -560,18 +560,21 @@ export default function GShockPage() {
                     {/* Special Features Badges */}
                     <div className="flex flex-wrap justify-center gap-2 pt-2 border-t">
                       {watch.hasSolar && (
-                        <Badge variant="outline" className="bg-yellow-50 border-yellow-200 text-yellow-700">
-                          ☀️ Solar
+                        <Badge variant="outline" className="text-accent border-accent/30">
+                          <Zap className="h-3 w-3 mr-1" />
+                          Solar
                         </Badge>
                       )}
                       {watch.hasBluetooth && (
-                        <Badge variant="outline" className="bg-blue-50 border-blue-200 text-blue-700">
-                          📱 Bluetooth
+                        <Badge variant="outline" className="text-accent border-accent/30">
+                          <Activity className="h-3 w-3 mr-1" />
+                          Bluetooth
                         </Badge>
                       )}
                       {watch.hasGPS && (
-                        <Badge variant="outline" className="bg-green-50 border-green-200 text-green-700">
-                          📍 GPS
+                        <Badge variant="outline" className="text-accent border-accent/30">
+                          <MapPin className="h-3 w-3 mr-1" />
+                          GPS
                         </Badge>
                       )}
             </div>
