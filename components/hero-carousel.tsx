@@ -94,7 +94,7 @@ export function HeroCarousel() {
                 </Badge>
               </div>
                 
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance leading-tight">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance leading-tight max-w-[579px]">
                   {slides[currentSlide].title}
                 </h1>
                 

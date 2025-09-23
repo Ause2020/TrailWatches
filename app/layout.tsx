@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://trailwatches.vercel.app",
+    canonical: "https://trailwatches.com",
   },
   verification: {
     google: "SPVoeyIHa3t5IjBrJAEk0IU7ixdTs19TgB99ZT5qKoI",
