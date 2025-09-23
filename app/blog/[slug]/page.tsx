@@ -1270,6 +1270,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>Solar-powered rugged watch</strong> with 28+ day battery life. The most affordable option in the premium lineup, perfect for ultra-runners and outdoor athletes.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4ngEXrB" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Instinct 3 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Solar charging technology</li>
