@@ -22,6 +22,7 @@ interface GShockModel {
   hasSolar: boolean
   hasBluetooth: boolean
   description: string
+  amazonLink?: string
 }
 
 const gshockModels: GShockModel[] = [
@@ -38,6 +39,7 @@ const gshockModels: GShockModel[] = [
     hasSolar: false,
     hasBluetooth: false,
     description: "The iconic 'Casioak' with minimalist design and carbon core guard structure.",
+    amazonLink: "https://amzn.to/4niNslV",
   },
   {
     id: "ga-100-1a1",
@@ -51,7 +53,8 @@ const gshockModels: GShockModel[] = [
     category: "under100",
     hasSolar: false,
     hasBluetooth: false,
-    description: "Best-seller clásico con diseño grande y cronógrafo.",
+    description: "Classic best-seller with large design and chronograph.",
+    amazonLink: "https://amzn.to/42FRk80",
   },
   {
     id: "dw-5600e-1v",
@@ -66,6 +69,7 @@ const gshockModels: GShockModel[] = [
     hasSolar: true,
     hasBluetooth: false,
     description: "Square original, solar, icónico y asequible.",
+    amazonLink: "https://amzn.to/4nH9a2y",
   },
   {
     id: "gmb2100ad-2a",
@@ -79,7 +83,8 @@ const gshockModels: GShockModel[] = [
     category: "over300",
     hasSolar: true,
     hasBluetooth: true,
-    description: "Full-metal premium con Bluetooth y diseño elegante.",
+    description: "Full-metal premium with Bluetooth and elegant design.",
+    amazonLink: "https://amzn.to/46vV6BZ",
   },
   {
     id: "ga-700vb-1a",
@@ -93,7 +98,8 @@ const gshockModels: GShockModel[] = [
     category: "100-300",
     hasSolar: false,
     hasBluetooth: false,
-    description: "Virtual World series con diseño bold y llamativo.",
+    description: "Virtual World series with bold and striking design.",
+    amazonLink: "https://amzn.to/4nhpG9S",
   },
   {
     id: "ga-110-1a",
@@ -107,7 +113,8 @@ const gshockModels: GShockModel[] = [
     category: "under100",
     hasSolar: false,
     hasBluetooth: false,
-    description: "Similar a GA-100 pero con dial más complejo y funcional.",
+    description: "Similar to GA-100 but with more complex and functional dial.",
+    amazonLink: "https://amzn.to/46xoZlo",
   },
   {
     id: "gw-m5610u-1",
@@ -121,21 +128,8 @@ const gshockModels: GShockModel[] = [
     category: "100-300",
     hasSolar: true,
     hasBluetooth: false,
-    description: "Solar, multiband, clásico square actualizado con sincronización atómica.",
-  },
-  {
-    id: "mtgb3000dn1a",
-    model: "MTGB3000DN1A",
-    price: 1200,
-    priceDisplay: "$1,200",
-    weight: "120g",
-    features: ["Diffuse Nebula", "Premium Design", "Titanium", "200m Water Resistance", "Bluetooth", "Solar Power"],
-    waterResistance: "200m",
-    image: "/placeholder.svg?key=mtgb3000",
-    category: "over300",
-    hasSolar: true,
-    hasBluetooth: true,
-    description: "Diffuse Nebula, premium con colores galácticos y materiales de alta gama.",
+    description: "Solar, multiband, classic square updated with atomic synchronization.",
+    amazonLink: "https://amzn.to/3Ik13dr",
   },
   {
     id: "dw-6900-1v",
@@ -149,7 +143,8 @@ const gshockModels: GShockModel[] = [
     category: "under100",
     hasSolar: false,
     hasBluetooth: false,
-    description: "Clásico redondo con LED backlight y diseño atemporal.",
+    description: "Classic round with LED backlight and timeless design.",
+    amazonLink: "https://amzn.to/4pyzldB",
   },
   {
     id: "gm-2100-1a",
@@ -163,21 +158,8 @@ const gshockModels: GShockModel[] = [
     category: "100-300",
     hasSolar: false,
     hasBluetooth: false,
-    description: "Metal bezel, variante premium de GA-2100 con acabados superiores.",
-  },
-  {
-    id: "gbd-200rd-4",
-    model: "GBD-200RD-4",
-    price: 150,
-    priceDisplay: "$150",
-    weight: "60g",
-    features: ["Fitness Oriented", "Accelerometer", "200m Water Resistance", "Bluetooth", "Step Counter", "Shock Resistant"],
-    waterResistance: "200m",
-    image: "/placeholder.svg?key=gbd200",
-    category: "100-300",
-    hasSolar: false,
-    hasBluetooth: true,
-    description: "Fitness-oriented con acelerómetro y seguimiento de actividad.",
+    description: "Metal bezel, premium variant of GA-2100 with superior finishes.",
+    amazonLink: "https://amzn.to/3VqhYhp",
   },
   {
     id: "mrg-b5000d-1",
@@ -191,49 +173,8 @@ const gshockModels: GShockModel[] = [
     category: "over300",
     hasSolar: true,
     hasBluetooth: true,
-    description: "Alta gama, titanium, solar - la máxima expresión de lujo G-Shock.",
-  },
-  {
-    id: "awg-m100sbc-1a",
-    model: "AWG-M100SBC-1A",
-    price: 80,
-    priceDisplay: "$80",
-    weight: "55g",
-    features: ["Solar Power", "Compact", "200m Water Resistance", "World Time", "Shock Resistant", "Lightweight"],
-    waterResistance: "200m",
-    image: "/placeholder.svg?key=awgm100",
-    category: "under100",
-    hasSolar: true,
-    hasBluetooth: false,
-    description: "Solar, compacto y ligero para uso diario.",
-  },
-  {
-    id: "mtg-b3000bd-1a",
-    model: "MTG-B3000BD-1A",
-    price: 800,
-    priceDisplay: "$800",
-    weight: "110g",
-    features: ["Premium Metal", "Solar Power", "200m Water Resistance", "Bluetooth", "Titanium", "Premium Design"],
-    waterResistance: "200m",
-    image: "/placeholder.svg?key=mtgb3000bd",
-    category: "over300",
-    hasSolar: true,
-    hasBluetooth: true,
-    description: "Premium metal, solar con acabados de alta gama.",
-  },
-  {
-    id: "mtg-b3000d-1a",
-    model: "MTG-B3000D-1A",
-    price: 750,
-    priceDisplay: "$750",
-    weight: "108g",
-    features: ["Silver Variant", "Premium Metal", "Solar Power", "200m Water Resistance", "Bluetooth", "Elegant"],
-    waterResistance: "200m",
-    image: "/placeholder.svg?key=mtgb3000d",
-    category: "over300",
-    hasSolar: true,
-    hasBluetooth: true,
-    description: "Variante plateada del MTG-B3000 con acabados elegantes.",
+    description: "High-end, titanium, solar - the ultimate expression of G-Shock luxury.",
+    amazonLink: "https://amzn.to/42J80eR",
   },
   {
     id: "gmw-b5000gd-9",
@@ -247,7 +188,8 @@ const gshockModels: GShockModel[] = [
     category: "over300",
     hasSolar: true,
     hasBluetooth: true,
-    description: "Full-metal gold, icónico con acabados dorados de lujo.",
+    description: "Full-metal gold, iconic with luxury gold finishes.",
+    amazonLink: "https://amzn.to/4ngq7kR",
   },
   {
     id: "gw-m5610ubc-1",
@@ -262,6 +204,7 @@ const gshockModels: GShockModel[] = [
     hasSolar: true,
     hasBluetooth: false,
     description: "Composite band, solar con correa cómoda y resistente.",
+    amazonLink: "https://amzn.to/3W29ixS",
   },
   {
     id: "gw-s5600u-1",
@@ -275,7 +218,8 @@ const gshockModels: GShockModel[] = [
     category: "100-300",
     hasSolar: true,
     hasBluetooth: false,
-    description: "Carbon fiber, ligero con materiales de alta tecnología.",
+    description: "Carbon fiber, lightweight with high-tech materials.",
+    amazonLink: "https://amzn.to/423BK61",
   },
   {
     id: "gg-b100-1a",
@@ -290,6 +234,7 @@ const gshockModels: GShockModel[] = [
     hasSolar: false,
     hasBluetooth: false,
     description: "Mudmaster con altímetro y barómetro para aventuras extremas.",
+    amazonLink: "https://amzn.to/46VbaxJ",
   },
   {
     id: "gpr-h1000-1",
@@ -303,7 +248,158 @@ const gshockModels: GShockModel[] = [
     category: "over300",
     hasSolar: false,
     hasBluetooth: true,
-    description: "Rangeman con GPS y sensores avanzados para navegación outdoor.",
+    description: "Rangeman with GPS and advanced sensors for outdoor navigation.",
+    amazonLink: "https://amzn.to/4gB5Zax",
+  },
+  {
+    id: "gw6900-1",
+    model: "GW6900-1",
+    price: 120,
+    priceDisplay: "$120",
+    weight: "58g",
+    features: ["Solar Power", "200m Water Resistance", "World Time", "Shock Resistant", "LED Backlight", "Classic Round"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=gw6900",
+    category: "100-300",
+    hasSolar: true,
+    hasBluetooth: false,
+    description: "Classic round G-Shock with solar power and timeless design.",
+    amazonLink: "https://amzn.to/46xE7j0",
+  },
+  {
+    id: "dw9052-1bcg",
+    model: "DW9052-1BCG",
+    price: 60,
+    priceDisplay: "$60",
+    weight: "55g",
+    features: ["Military Style", "200m Water Resistance", "Shock Resistant", "LED Backlight", "Alarm", "Stopwatch"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=dw9052",
+    category: "under100",
+    hasSolar: false,
+    hasBluetooth: false,
+    description: "Military-style G-Shock with rugged design and essential features.",
+    amazonLink: "https://amzn.to/4gBuUe4",
+  },
+  {
+    id: "ga-2100-basic",
+    model: "GA-2100",
+    price: 99,
+    priceDisplay: "$99",
+    weight: "51g",
+    features: ["Carbon Core Guard", "200m Water Resistance", "World Time", "LED Light", "Shock Resistant", "Analog-Digital Display"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=ga2100basic",
+    category: "under100",
+    hasSolar: false,
+    hasBluetooth: false,
+    description: "The iconic 'Casioak' with minimalist design and carbon core guard structure.",
+    amazonLink: "https://amzn.to/4mpn2xr",
+  },
+  {
+    id: "gbd200-1",
+    model: "GBD200-1",
+    price: 150,
+    priceDisplay: "$150",
+    weight: "60g",
+    features: ["Fitness Tracking", "Bluetooth", "200m Water Resistance", "Step Counter", "Shock Resistant", "Activity Monitor"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=gbd200",
+    category: "100-300",
+    hasSolar: false,
+    hasBluetooth: true,
+    description: "Fitness-focused G-Shock with Bluetooth connectivity and activity tracking.",
+    amazonLink: "https://amzn.to/4pB2R2g",
+  },
+  {
+    id: "gba800uc-2a",
+    model: "GBA800UC-2A",
+    price: 100,
+    priceDisplay: "$100",
+    weight: "65g",
+    features: ["Bluetooth", "Fitness Tracking", "200m Water Resistance", "Step Counter", "Shock Resistant", "Smartphone Link"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=gba800",
+    category: "100-300",
+    hasSolar: false,
+    hasBluetooth: true,
+    description: "Bluetooth-enabled G-Shock with fitness tracking and smartphone connectivity.",
+    amazonLink: "https://amzn.to/3Ket7iW",
+  },
+  {
+    id: "ga2100vb-1a",
+    model: "GA2100VB-1A",
+    price: 99,
+    priceDisplay: "$99",
+    weight: "51g",
+    features: ["Carbon Core Guard", "200m Water Resistance", "World Time", "LED Light", "Shock Resistant", "Analog-Digital Display"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=ga2100vb",
+    category: "under100",
+    hasSolar: false,
+    hasBluetooth: false,
+    description: "Casioak variant with unique color scheme and carbon core guard structure.",
+    amazonLink: "https://amzn.to/46zcwhq",
+  },
+  {
+    id: "dw-9052-1vdr",
+    model: "DW-9052-1VDR",
+    price: 60,
+    priceDisplay: "$60",
+    weight: "55g",
+    features: ["Military Style", "200m Water Resistance", "Shock Resistant", "LED Backlight", "Alarm", "Stopwatch"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=dw9052vdr",
+    category: "under100",
+    hasSolar: false,
+    hasBluetooth: false,
+    description: "Military-style G-Shock with distinctive color scheme and rugged design.",
+    amazonLink: "https://amzn.to/3VwEXHD",
+  },
+  {
+    id: "gd100-1bcr",
+    model: "GD100-1BCR",
+    price: 80,
+    priceDisplay: "$80",
+    weight: "70g",
+    features: ["Large Display", "200m Water Resistance", "Shock Resistant", "LED Backlight", "Chronograph", "Alarm"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=gd100",
+    category: "under100",
+    hasSolar: false,
+    hasBluetooth: false,
+    description: "Large display G-Shock with bold design and essential features.",
+    amazonLink: "https://amzn.to/4gBuZ17",
+  },
+  {
+    id: "ga-700-1bdr",
+    model: "GA-700-1BDR",
+    price: 100,
+    priceDisplay: "$100",
+    weight: "70g",
+    features: ["Bold Design", "200m Water Resistance", "Chronograph", "LED Backlight", "Shock Resistant", "Large Face"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=ga700bdr",
+    category: "100-300",
+    hasSolar: false,
+    hasBluetooth: false,
+    description: "Bold design G-Shock with large face and chronograph functionality.",
+    amazonLink: "https://amzn.to/4gDb5D1",
+  },
+  {
+    id: "ga100c-1a3",
+    model: "GA100C-1A3",
+    price: 85,
+    priceDisplay: "$85",
+    weight: "75g",
+    features: ["Complex Dial", "Chronograph", "200m Water Resistance", "LED Backlight", "Shock Resistant", "World Time"],
+    waterResistance: "200m",
+    image: "/placeholder.svg?key=ga100c",
+    category: "under100",
+    hasSolar: false,
+    hasBluetooth: false,
+    description: "Complex dial G-Shock with multiple functions and chronograph.",
+    amazonLink: "https://amzn.to/4nHXWea",
   },
 ]
 
@@ -564,6 +660,27 @@ export function GShockComparison() {
                         {model.hasBluetooth && <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">Bluetooth</Badge>}
                       </div>
                     </div>
+
+                    {/* Amazon Buy Button */}
+                    {model.amazonLink && (
+                      <div className="text-center pt-4 border-t">
+                        <Button 
+                          asChild 
+                          className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold"
+                          size="sm"
+                        >
+                          <a 
+                            href={model.amazonLink} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-2"
+                          >
+                            <ExternalLink className="h-4 w-4" />
+                            Buy on Amazon
+                          </a>
+                        </Button>
+                      </div>
+                    )}
 
                     {/* Learn More */}
                     <div className="text-center pt-4 border-t">

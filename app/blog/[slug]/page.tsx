@@ -48,6 +48,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The iconic <strong>"Casioak"</strong> combines analog-digital display with 200m water resistance and a remarkably slim design. This watch strikes the perfect balance between style and durability, making it ideal for both trail adventures and daily wear.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4niNslV" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy GA-2100-1A1 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Carbon Core Guard structure</li>
@@ -69,6 +75,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;">A solar-powered GPS watch with an incredible <strong>28+ days battery life</strong>. The Instinct 3 is the ultimate companion for serious hikers and outdoor enthusiasts who need reliable navigation and tracking.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4ngEXrB" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Instinct 3 on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -114,6 +126,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">A <strong>running-focused GPS watch</strong> with 11-day battery life. Great choice for trail runners and hikers who want essential features without overwhelming complexity.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4msAKQ2" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Forerunner 165 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Built-in GPS tracking</li>
@@ -136,6 +154,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The <strong>classic square G-Shock</strong> with solar power. A budget-friendly option that delivers legendary durability and reliability at an unbeatable price point.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4nH9a2y" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy DW-5600E-1V on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Solar power system</li>
@@ -157,6 +181,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>Premium multisport watch</strong> with AMOLED display and 16-day battery life. The ultimate choice for serious athletes and outdoor enthusiasts who want every feature available.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/3Kdne5C" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Fenix 8 on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -264,6 +294,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The classic large-face G-Shock with chronograph functionality. Perfect for those who want <strong>bold style</strong> with reliable performance at an affordable price point.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/42FRk80" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy GA-100-1A1 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Large analog-digital display</li>
@@ -285,6 +321,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The iconic square G-Shock with <strong>solar power</strong>. This legendary design offers incredible value and virtually unlimited battery life for outdoor adventures.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4nH9a2y" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy DW-5600E-1V on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -308,6 +350,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The premium G-Shock with <strong>GPS and heart rate monitoring</strong>. Perfect for serious adventurers who need advanced tracking and navigation capabilities.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4gB5Zax" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy GPR-H1000-1 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Built-in GPS tracking</li>
@@ -330,6 +378,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The slim and stylish <strong>"CasiOak"</strong> that combines durability with modern aesthetics. Perfect for daily adventures and versatile enough for any occasion.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4niNslV" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy GA-2100-1A1 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Carbon Core Guard structure</li>
@@ -351,6 +405,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>Mud and dust resistant</strong> with advanced sensors. Built for the harshest conditions where other watches fail.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/46VbaxJ" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy GG-B100-1A on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -461,6 +521,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The perfect <strong>entry-level GPS running watch</strong> with 11-day battery life. Ideal for beginners who want serious running metrics without overwhelming complexity.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4msAKQ2" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Forerunner 165 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Built-in GPS with multi-GNSS support</li>
@@ -482,6 +548,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The ultimate <strong>multisport watch</strong> with bright AMOLED display and 16-day battery life. Perfect for endurance athletes who demand the best technology available.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/3Kdne5C" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Fenix 8 on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -505,6 +577,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The perfect <strong>smartwatch-fitness hybrid</strong> with AMOLED display and music storage. Great for daily fitness tracking with smart features.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4gDHQAf" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Vivoactive 6 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Bright AMOLED display</li>
@@ -526,6 +604,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>Solar-powered rugged watch</strong> with incredible 28+ day battery life. Perfect for outdoor athletes who need reliability above all else.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4ngEXrB" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Instinct 3 on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -549,6 +633,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">Advanced <strong>running-focused watch</strong> with AMOLED display and comprehensive training metrics. Ideal for marathon training and competitive running.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4mx5sYD" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Forerunner 265 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">AMOLED touchscreen display</li>
@@ -570,6 +660,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The <strong>premium flagship</strong> with topographic maps and AMOLED display. For athletes who want every feature and the highest build quality.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/3W2GFk6" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Epix Pro 2 Sapphire on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -676,6 +772,15 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>G-Shock GBD-200RD-4 (~$150):</strong> Offers basic fitness tracking with step counting and Bluetooth connectivity. Built like a tank with classic G-Shock durability.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4pB2R2g" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; margin-right: 10px;">
+          🛒 Buy GBD-200RD-4 on Amazon
+        </a>
+        <a href="https://amzn.to/4mx5sYD" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Forerunner 265 on Amazon
+        </a>
+      </div>
+      
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>Garmin Forerunner 265 (~$450):</strong> Advanced running watch with AMOLED display, comprehensive training metrics, and detailed performance analysis.</p>
       
       <p style="margin-bottom: 24px; line-height: 1.6;"><strong>Winner:</strong> Garmin for serious runners wanting detailed metrics; G-Shock for durability-focused trail runners on a budget.</p>
@@ -686,6 +791,15 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>G-Shock GG-B100-1A Mudmaster (~$350):</strong> Mud-resistant with triple sensors (compass, altimeter, barometer) and extreme durability for harsh conditions.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/46VbaxJ" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; margin-right: 10px;">
+          🛒 Buy GG-B100-1A on Amazon
+        </a>
+        <a href="https://amzn.to/4ngEXrB" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Instinct 3 on Amazon
+        </a>
+      </div>
+      
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>Garmin Instinct 3 (~$400):</strong> Solar-powered with 28+ day battery life, GPS tracking, and military-grade durability.</p>
       
       <p style="margin-bottom: 24px; line-height: 1.6;"><strong>Winner:</strong> Garmin edges out with solar charging and superior GPS capabilities for long-distance trail running.</p>
@@ -695,6 +809,15 @@ const blogPosts = {
       <h3 style="margin: 32px 0 16px 0; font-size: 20px; font-weight: bold;">G-Shock GA-2100-1A1 vs Garmin Forerunner 165</h3>
       
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>G-Shock GA-2100-1A1 "CasiOak" (~$100):</strong> Slim profile with analog-digital display, perfect balance of style and toughness.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4niNslV" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; margin-right: 10px;">
+          🛒 Buy GA-2100-1A1 on Amazon
+        </a>
+        <a href="https://amzn.to/4msAKQ2" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Forerunner 165 on Amazon
+        </a>
+      </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>Garmin Forerunner 165 (~$200):</strong> Entry-level GPS running watch with essential metrics and 11-day battery life.</p>
       
@@ -790,6 +913,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The <strong>classic G-Shock</strong> that started it all. With its iconic three-eye design and LED backlight, this watch offers legendary durability at an unbeatable price.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4pyzldB" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy DW-6900-1V on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">200m water resistance</li>
@@ -811,6 +940,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The most <strong>affordable GPS running watch</strong> from Garmin. Perfect entry point for runners who want GPS tracking without premium pricing.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4nBaNyI" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Forerunner 55 on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -834,6 +969,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">A <strong>bold, modern G-Shock</strong> with large analog-digital display. Great visibility and classic G-Shock durability in a contemporary design.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4nhpG9S" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy GA-700VB-1A on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Large, easy-to-read display</li>
@@ -856,6 +997,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The popular <strong>"CasiOak"</strong> with its slim profile and modern aesthetics. Perfect blend of style, durability, and affordability.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4niNslV" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy GA-2100-1A1 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Ultra-thin carbon case</li>
@@ -877,6 +1024,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;">Entry-level <strong>GPS sports watch</strong> with heart rate monitoring. Great starter watch for fitness tracking and outdoor activities.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4nBaNyI" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Forerunner 45 on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -977,6 +1130,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The ultimate <strong>ultra-endurance watch</strong> with an incredible 90-day battery life in solar mode. Built for athletes who push the absolute limits of human endurance.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/4mz1r5V" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Enduro 3 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">90-day battery life with solar charging</li>
@@ -998,6 +1157,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;">Premium <strong>AMOLED display watch</strong> with comprehensive mapping and sapphire crystal protection. Perfect for athletes who want the best of both performance and visual appeal.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/3W2GFk6" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Epix Pro 2 Sapphire on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
@@ -1021,6 +1186,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;">The flagship <strong>multisport watch</strong> with 16-day battery life and comprehensive training features. The gold standard for serious multisport athletes.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/3Kdne5C" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Fenix 8 on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Advanced multisport profiles</li>
@@ -1043,6 +1214,12 @@ const blogPosts = {
       
       <p style="margin-bottom: 16px; line-height: 1.6;"><strong>Marine and adventure sports specialist</strong> with solar charging and comprehensive navigation features. Perfect for sailors, kayakers, and adventure athletes.</p>
       
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/46xlonI" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Quatix 7X Solar on Amazon
+        </a>
+      </div>
+      
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">
         <li style="margin-bottom: 4px;">Marine-specific data and charts</li>
@@ -1064,6 +1241,12 @@ const blogPosts = {
       </div>
       
       <p style="margin-bottom: 16px; line-height: 1.6;">Premium <strong>running-focused watch</strong> with AMOLED display and 14-day battery life. Designed specifically for marathon training and competitive running.</p>
+      
+      <div style="text-align: center; margin: 20px 0;">
+        <a href="https://amzn.to/42DdMi9" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+          🛒 Buy Forerunner 970 on Amazon
+        </a>
+      </div>
       
       <p style="margin: 16px 0 8px 0; font-weight: bold;">Key Features:</p>
       <ul style="margin: 8px 0 16px 20px; line-height: 1.6;">

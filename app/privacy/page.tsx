@@ -108,10 +108,11 @@ export default function PrivacyPolicyPage() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold mb-2">Future Affiliate Links</h4>
+                  <h4 className="font-semibold mb-2">Amazon Affiliate Links</h4>
                   <p className="text-muted-foreground">
-                    We plan to include affiliate links in the future. When implemented, 
-                    we will clearly disclose these relationships and update this policy accordingly.
+                    Our website includes Amazon affiliate links for watch purchases. When you click on these links 
+                    and make a purchase, we may receive a small commission at no additional cost to you. 
+                    This does not affect our editorial independence or the accuracy of our reviews.
                   </p>
                 </div>
               </CardContent>

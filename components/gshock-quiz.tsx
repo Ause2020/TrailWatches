@@ -51,10 +51,10 @@ const watchRecommendations: Record<string, WatchRecommendation> = {
     features: ["Carbon Core Guard", "200m Water Resistance", "World Time", "LED Light"],
   },
   "daily-gshock-over300-yes": {
-    model: "GMCB2100-1A",
+    model: "GMB2100AD-2A",
     price: "$800",
     description: "Premium metal bezel G-Shock with Bluetooth and solar power for sophisticated daily wear.",
-    image: "/casio-g-shock-gmcb2100-metal-bezel-premium-watch.jpg",
+    image: "/comparator-images/GMB2100AD-2A.png",
     features: ["Metal Bezel", "Bluetooth", "Solar Power", "Carbon Core Guard"],
   },
   

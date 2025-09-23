@@ -115,10 +115,11 @@ export default function TermsOfServicePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  TrailWatches may include affiliate links in the future. When implemented, 
-                  we will clearly disclose these relationships. We may receive compensation 
-                  when you click on or make purchases through affiliate links, but this does 
-                  not affect the price you pay or influence our reviews and recommendations.
+                  TrailWatches includes Amazon affiliate links for watch purchases. We clearly disclose 
+                  these relationships throughout our website. We may receive compensation when you click 
+                  on or make purchases through these affiliate links, but this does not affect the price 
+                  you pay or influence our reviews and recommendations. Our editorial content remains 
+                  independent and unbiased.
                 </p>
               </CardContent>
             </Card>

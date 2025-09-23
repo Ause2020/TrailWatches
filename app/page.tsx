@@ -70,8 +70,7 @@ export default function HomePage() {
                     <CardTitle className="flex items-center justify-between text-xl">
                       <span>GA-2100</span>
                       <div className="text-right">
-                        <div className="text-2xl font-bold text-accent">$79</div>
-                        <div className="text-sm text-muted-foreground line-through">$99</div>
+                        <div className="text-sm text-muted-foreground">Best Seller</div>
                       </div>
                     </CardTitle>
                     <CardDescription className="text-base font-medium">Minimalist Casioak</CardDescription>
@@ -99,6 +98,21 @@ export default function HomePage() {
                   </div>
                   
                   <div className="text-center">
+                    <Button 
+                      asChild 
+                      className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold mb-3"
+                      size="sm"
+                    >
+                      <a 
+                        href="https://amzn.to/4niNslV" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2"
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                        Buy on Amazon
+                      </a>
+                    </Button>
                     <p className="text-sm text-muted-foreground">Learn more about this watch in our detailed reviews</p>
                   </div>
                 </CardContent>
@@ -124,8 +138,7 @@ export default function HomePage() {
                     <CardTitle className="flex items-center justify-between text-xl">
                       <span>Instinct 3</span>
                       <div className="text-right">
-                        <div className="text-2xl font-bold text-accent">$399</div>
-                        <div className="text-sm text-muted-foreground">MSRP $449</div>
+                        <div className="text-sm text-muted-foreground">Editor's Choice</div>
                       </div>
                     </CardTitle>
                     <CardDescription className="text-base font-medium">Rugged GPS Smartwatch</CardDescription>
@@ -153,12 +166,27 @@ export default function HomePage() {
                   </div>
                   
                   <div className="text-center">
+                    <Button 
+                      asChild 
+                      className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold mb-3"
+                      size="sm"
+                    >
+                      <a 
+                        href="https://amzn.to/4ngEXrB" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2"
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                        Buy on Amazon
+                      </a>
+                    </Button>
                     <p className="text-sm text-muted-foreground">Learn more about this watch in our detailed reviews</p>
                   </div>
                 </CardContent>
               </Card>
 
-              {/* GMCB2100 */}
+              {/* GMB2100AD-2A */}
               <Card className="group hover:shadow-2xl transition-all duration-300 border-2 hover:border-accent/20 relative overflow-hidden">
                 <div className="absolute top-4 left-4 z-10">
                   <Badge className="bg-gradient-to-r from-yellow-500 to-orange-500 text-white">Premium</Badge>
@@ -168,19 +196,18 @@ export default function HomePage() {
                 </div>
                 
                 <CardHeader className="pb-4">
-                  <div className="aspect-square bg-gradient-to-br from-muted to-muted/50 rounded-xl mb-4 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                  <div className="aspect-square bg-gradient-to-br from-muted to-muted/50 rounded-xl mb-4 flex items-center justify-center group-hover:scale-105 transition-transform duration-300 overflow-hidden">
                     <img
-                      src="/casio-g-shock-gmcb2100-metal-bezel-premium-watch.jpg"
-                      alt="GMCB2100 Metal"
-                      className="w-full h-full object-cover rounded-xl"
+                      src="/comparator-images/GMB2100AD-2A.png"
+                      alt="GMB2100AD-2A Metal"
+                      className="w-full h-full object-contain rounded-xl"
                     />
                   </div>
                   <div className="space-y-2">
                     <CardTitle className="flex items-center justify-between text-xl">
-                      <span>GMCB2100</span>
+                      <span>GMB2100AD-2A</span>
                       <div className="text-right">
-                        <div className="text-2xl font-bold text-accent">$800</div>
-                        <div className="text-sm text-muted-foreground">Premium Price</div>
+                        <div className="text-sm text-muted-foreground">Premium</div>
                       </div>
                     </CardTitle>
                     <CardDescription className="text-base font-medium">Premium Metal Bezel</CardDescription>
@@ -208,6 +235,21 @@ export default function HomePage() {
                   </div>
                   
                   <div className="text-center">
+                    <Button 
+                      asChild 
+                      className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold mb-3"
+                      size="sm"
+                    >
+                      <a 
+                        href="https://amzn.to/46vV6BZ" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2"
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                        Buy on Amazon
+                      </a>
+                    </Button>
                     <p className="text-sm text-muted-foreground">Learn more about this watch in our detailed reviews</p>
                   </div>
                 </CardContent>

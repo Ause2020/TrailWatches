@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import Link from "next/link"
-import { ArrowRight, RotateCcw, Trophy, Medal, Award } from "lucide-react"
+import { ArrowRight, RotateCcw, Trophy, Medal, Award, ExternalLink } from "lucide-react"
 
 interface QuizAnswers {
   usage: string
@@ -28,6 +28,7 @@ interface WatchRecommendation {
   image: string
   features: string[]
   score: number
+  amazonLink?: string
 }
 
 const watchDatabase: WatchRecommendation[] = [
@@ -40,15 +41,17 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/GA-2100-1A1.png",
     features: ["Carbon Core Guard", "200m Water Resistance", "World Time", "LED Light", "Shock Resistant", "Analog-Digital Display"],
     score: 0,
+    amazonLink: "https://amzn.to/4niNslV",
   },
   {
     model: "GA-100-1A1",
     brand: "G-Shock",
     price: "$90",
-    description: "Best-seller clásico con diseño grande y cronógrafo.",
+    description: "Classic best-seller with large design and chronograph.",
     image: "/comparator-images/GA-100-1A1.png",
     features: ["Large Face", "Chronograph", "Alarm", "200m Water Resistance", "Shock Resistant", "LED Backlight"],
     score: 0,
+    amazonLink: "https://amzn.to/42FRk80",
   },
   {
     model: "DW-5600E-1V",
@@ -58,48 +61,53 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/DW-5600E-1V.png",
     features: ["Solar Power", "200m Water Resistance", "EL Backlight", "Multi-Function Alarm", "Stopwatch", "Shock Resistant"],
     score: 0,
+    amazonLink: "https://amzn.to/4nH9a2y",
   },
   {
     model: "GMB2100AD-2A",
     brand: "G-Shock",
     price: "$400",
-    description: "Full-metal premium con Bluetooth y diseño elegante.",
+    description: "Full-metal premium with Bluetooth and elegant design.",
     image: "/comparator-images/GMB2100AD-2A.png",
     features: ["Full Metal", "Bluetooth", "Solar Power", "200m Water Resistance", "Smartphone Link", "Premium Design"],
     score: 0,
+    amazonLink: "https://amzn.to/46vV6BZ",
   },
   {
     model: "GA-700VB-1A",
     brand: "G-Shock",
     price: "$100",
-    description: "Virtual World series con diseño bold y llamativo.",
+    description: "Virtual World series with bold and striking design.",
     image: "/comparator-images/GA-700VB-1A.png",
     features: ["Virtual World Series", "Bold Design", "200m Water Resistance", "Chronograph", "LED Backlight", "Shock Resistant"],
     score: 0,
+    amazonLink: "https://amzn.to/4nhpG9S",
   },
   {
     model: "GA-110-1A",
     brand: "G-Shock",
     price: "$85",
-    description: "Similar a GA-100 pero con dial más complejo y funcional.",
+    description: "Similar to GA-100 but with more complex and functional dial.",
     image: "/comparator-images/GA-110-1A.png",
     features: ["Complex Dial", "Chronograph", "200m Water Resistance", "LED Backlight", "Shock Resistant", "World Time"],
     score: 0,
+    amazonLink: "https://amzn.to/46xoZlo",
   },
   {
     model: "GW-M5610U-1",
     brand: "G-Shock",
     price: "$120",
-    description: "Solar, multiband, clásico square actualizado con sincronización atómica.",
+    description: "Solar, multiband, classic square updated with atomic synchronization.",
     image: "/comparator-images/GW-M5610U-1.png",
     features: ["Solar Power", "Multiband 6", "200m Water Resistance", "World Time", "Shock Resistant", "Atomic Timekeeping"],
     score: 0,
+    amazonLink: "https://amzn.to/3Ik13dr",
   },
   {
     model: "MTGB3000DN1A",
     brand: "G-Shock",
     price: "$1,200",
-    description: "Diffuse Nebula, premium con colores galácticos y materiales de alta gama.",
+    description: "Diffuse Nebula, premium with galactic colors and high-end materials.",
     image: "/comparator-images/MTGB3000DN1A.png",
     features: ["Diffuse Nebula", "Premium Design", "Titanium", "200m Water Resistance", "Bluetooth", "Solar Power"],
     score: 0,
@@ -108,19 +116,21 @@ const watchDatabase: WatchRecommendation[] = [
     model: "DW-6900-1V",
     brand: "G-Shock",
     price: "$70",
-    description: "Clásico redondo con LED backlight y diseño atemporal.",
+    description: "Classic round with LED backlight and timeless design.",
     image: "/comparator-images/DW-6900-1V.png",
     features: ["Classic Round", "LED Backlight", "200m Water Resistance", "Chronograph", "Shock Resistant", "Alarm"],
     score: 0,
+    amazonLink: "https://amzn.to/4pyzldB",
   },
   {
     model: "GM-2100-1A",
     brand: "G-Shock",
     price: "$200",
-    description: "Metal bezel, variante premium de GA-2100 con acabados superiores.",
+    description: "Metal bezel, premium variant of GA-2100 with superior finishes.",
     image: "/comparator-images/GM-2100-1A.png",
     features: ["Metal Bezel", "Premium Variant", "200m Water Resistance", "Carbon Core Guard", "Shock Resistant", "Elegant Design"],
     score: 0,
+    amazonLink: "https://amzn.to/3VqhYhp",
   },
   {
     model: "GBD-200RD-4",
@@ -135,16 +145,17 @@ const watchDatabase: WatchRecommendation[] = [
     model: "MRG-B5000D-1",
     brand: "G-Shock",
     price: "$2,000",
-    description: "Alta gama, titanium, solar - la máxima expresión de lujo G-Shock.",
+    description: "High-end, titanium, solar - the ultimate expression of G-Shock luxury.",
     image: "/comparator-images/MRG-B5000D-1.png",
     features: ["High End", "Titanium", "Solar Power", "200m Water Resistance", "Premium Materials", "Limited Edition"],
     score: 0,
+    amazonLink: "https://amzn.to/42J80eR",
   },
   {
     model: "AWG-M100SBC-1A",
     brand: "G-Shock",
     price: "$80",
-    description: "Solar, compacto y ligero para uso diario.",
+    description: "Solar, compact and lightweight for daily use.",
     image: "/comparator-images/AWG-M100SBC-1A.png",
     features: ["Solar Power", "Compact", "200m Water Resistance", "World Time", "Shock Resistant", "Lightweight"],
     score: 0,
@@ -153,7 +164,7 @@ const watchDatabase: WatchRecommendation[] = [
     model: "MTG-B3000BD-1A",
     brand: "G-Shock",
     price: "$800",
-    description: "Premium metal, solar con acabados de alta gama.",
+    description: "Premium metal, solar with high-end finishes.",
     image: "/comparator-images/MTG-B3000BD-1A.png",
     features: ["Premium Metal", "Solar Power", "200m Water Resistance", "Bluetooth", "Titanium", "Premium Design"],
     score: 0,
@@ -162,7 +173,7 @@ const watchDatabase: WatchRecommendation[] = [
     model: "MTG-B3000D-1A",
     brand: "G-Shock",
     price: "$750",
-    description: "Variante plateada del MTG-B3000 con acabados elegantes.",
+    description: "Silver variant of MTG-B3000 with elegant finishes.",
     image: "/comparator-images/MTG-B3000D-1A.png",
     features: ["Silver Variant", "Premium Metal", "Solar Power", "200m Water Resistance", "Bluetooth", "Elegant"],
     score: 0,
@@ -171,10 +182,11 @@ const watchDatabase: WatchRecommendation[] = [
     model: "GMW-B5000GD-9",
     brand: "G-Shock",
     price: "$600",
-    description: "Full-metal gold, icónico con acabados dorados de lujo.",
+    description: "Full-metal gold, iconic with luxury gold finishes.",
     image: "/comparator-images/GMW-B5000GD-9.png",
     features: ["Full Metal Gold", "Iconic", "200m Water Resistance", "Bluetooth", "Solar Power", "Luxury"],
     score: 0,
+    amazonLink: "https://amzn.to/4ngq7kR",
   },
   {
     model: "GW-M5610UBC-1",
@@ -184,15 +196,17 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/GW-M5610UBC-1.png",
     features: ["Composite Band", "Solar Power", "200m Water Resistance", "Multiband 6", "Shock Resistant", "Comfortable"],
     score: 0,
+    amazonLink: "https://amzn.to/3W29ixS",
   },
   {
     model: "GW-S5600U-1",
     brand: "G-Shock",
     price: "$300",
-    description: "Carbon fiber, ligero con materiales de alta tecnología.",
+    description: "Carbon fiber, lightweight with high-tech materials.",
     image: "/comparator-images/GW-S5600U-1.png",
     features: ["Carbon Fiber", "Lightweight", "200m Water Resistance", "Solar Power", "Shock Resistant", "Ultra Light"],
     score: 0,
+    amazonLink: "https://amzn.to/423BK61",
   },
   {
     model: "GG-B100-1A",
@@ -202,15 +216,17 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/GG-B100-1A.png",
     features: ["Mudmaster", "Altimeter", "Barometer", "200m Water Resistance", "Shock Resistant", "Outdoor"],
     score: 0,
+    amazonLink: "https://amzn.to/46VbaxJ",
   },
   {
     model: "GPR-H1000-1",
     brand: "G-Shock",
     price: "$500",
-    description: "Rangeman con GPS y sensores avanzados para navegación outdoor.",
+    description: "Rangeman with GPS and advanced sensors for outdoor navigation.",
     image: "/comparator-images/GPR-H1000-1.png",
     features: ["Rangeman", "GPS", "Advanced Sensors", "200m Water Resistance", "Bluetooth", "Outdoor Navigation"],
     score: 0,
+    amazonLink: "https://amzn.to/4gB5Zax",
   },
 
   // Garmin Models (20 models)
@@ -222,6 +238,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Instinct-3.png",
     features: ["GPS Navigation", "28-day Battery", "100m Water Rating", "Heart Rate Monitor", "Solar Charging"],
     score: 0,
+    amazonLink: "https://amzn.to/4ngEXrB",
   },
   {
     model: "Fenix 8",
@@ -231,6 +248,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Fenix-8.png",
     features: ["Advanced GPS", "Training Metrics", "Topographic Maps", "16-day Battery", "Pulse Ox", "Music Storage"],
     score: 0,
+    amazonLink: "https://amzn.to/3Kdne5C",
   },
   {
     model: "Forerunner 265",
@@ -240,6 +258,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Forerunner-265.png",
     features: ["AMOLED Display", "Running Dynamics", "Training Readiness", "13-day Battery", "Music Storage", "GPS"],
     score: 0,
+    amazonLink: "https://amzn.to/4mx5sYD",
   },
   {
     model: "Venu 3",
@@ -249,6 +268,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Venu-3.png",
     features: ["AMOLED Display", "Health Snapshot", "Sleep Coaching", "14-day Battery", "Voice Calling", "GPS"],
     score: 0,
+    amazonLink: "https://amzn.to/46h2eDx",
   },
   {
     model: "Forerunner 165",
@@ -258,6 +278,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Forerunner-165.png",
     features: ["AMOLED Display", "GPS", "Running Metrics", "11-day Battery", "Heart Rate Monitor", "Music"],
     score: 0,
+    amazonLink: "https://amzn.to/4msAKQ2",
   },
   {
     model: "Vivoactive 5",
@@ -267,6 +288,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Vivoactive-5.png",
     features: ["AMOLED Display", "GPS", "Health Monitoring", "11-day Battery", "Safe for Her", "Wheelchair Mode"],
     score: 0,
+    amazonLink: "https://amzn.to/4nM2xfv",
   },
   {
     model: "Epix Pro 2",
@@ -276,6 +298,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Epix-Pro-2.png",
     features: ["AMOLED Display", "Topographic Maps", "16-day Battery", "LED Flashlight", "Multi-GNSS", "Training Metrics"],
     score: 0,
+    amazonLink: "https://amzn.to/3W2GFk6",
   },
   {
     model: "Enduro 3",
@@ -285,6 +308,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Enduro-3.png",
     features: ["Solar Charging", "90-day Battery", "Ultra-Endurance", "LED Flashlight", "Multi-GNSS", "Training Load"],
     score: 0,
+    amazonLink: "https://amzn.to/4mz1r5V",
   },
   {
     model: "Forerunner 955",
@@ -294,6 +318,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Forerunner-955.png",
     features: ["Solar Charging", "15-day Battery", "Training Readiness", "Race Widget", "Multi-GNSS", "Music"],
     score: 0,
+    amazonLink: "https://amzn.to/42DdMi9",
   },
   {
     model: "Venu 2 Plus",
@@ -303,6 +328,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Venu-2-Plus.png",
     features: ["AMOLED Display", "Voice Calling", "11-day Battery", "Health Monitoring", "Music Storage", "GPS"],
     score: 0,
+    amazonLink: "https://amzn.to/4mxYYbU",
   },
   {
     model: "Instinct 2X Solar",
@@ -312,6 +338,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Instinct-2X-Solar.png",
     features: ["Solar Charging", "40-day Battery", "LED Flashlight", "Multi-GNSS", "Heart Rate", "Rugged Design"],
     score: 0,
+    amazonLink: "https://amzn.to/4ng9qpq",
   },
   {
     model: "Forerunner 55",
@@ -321,6 +348,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Forerunner-55.png",
     features: ["GPS", "Running Coach", "14-day Battery", "Heart Rate Monitor", "Safety Features", "PacePro"],
     score: 0,
+    amazonLink: "https://amzn.to/4nBaNyI",
   },
   {
     model: "Lily 2",
@@ -330,6 +358,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Lily-2.png",
     features: ["Small Design", "5-day Battery", "Health Monitoring", "Smart Notifications", "Style Focus", "GPS"],
     score: 0,
+    amazonLink: "https://amzn.to/3IawzKZ",
   },
   {
     model: "Approach S70",
@@ -339,6 +368,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Approach-S70.png",
     features: ["Golf Focus", "Color Maps", "14-day Battery", "Course Data", "Hazard Info", "Score Tracking"],
     score: 0,
+    amazonLink: "https://amzn.to/4gGScPS",
   },
   {
     model: "Swim 2",
@@ -348,6 +378,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Swim-2.png",
     features: ["Swimming Focus", "Pool/Open Water", "6-day Battery", "Stroke Analysis", "Heart Rate", "GPS"],
     score: 0,
+    amazonLink: "https://amzn.to/4gGQI8g",
   },
   {
     model: "Edge 1040 Solar",
@@ -357,6 +388,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Edge-1040-Solar.png",
     features: ["Solar Charging", "45-hour Battery", "Cycling Computer", "Navigation", "Performance Metrics", "Safety"],
     score: 0,
+    amazonLink: "https://amzn.to/4gGQI8g",
   },
   {
     model: "Vivomove Sport",
@@ -366,6 +398,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Vivomove-Sport.png",
     features: ["Hybrid Display", "5-day Battery", "Health Monitoring", "Safe for Her", "Activity Tracking", "Smart"],
     score: 0,
+    amazonLink: "https://amzn.to/4gGQI8g",
   },
   {
     model: "Descent Mk3i",
@@ -375,6 +408,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Descent-Mk3i.png",
     features: ["Diving Computer", "Air Integration", "28-day Battery", "Multi-GNSS", "LED Flashlight", "Underwater"],
     score: 0,
+    amazonLink: "https://amzn.to/4gGQI8g",
   },
   {
     model: "MARQ Adventurer",
@@ -384,6 +418,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/MARQ-Adventurer.png",
     features: ["Titanium", "Sapphire", "16-day Battery", "Expedition Mode", "Multi-GNSS", "Premium Materials"],
     score: 0,
+    amazonLink: "https://amzn.to/4gGQI8g",
   },
   {
     model: "Tactix 7 Pro",
@@ -393,6 +428,7 @@ const watchDatabase: WatchRecommendation[] = [
     image: "/comparator-images/Tactix-7-Pro.png",
     features: ["Tactical Features", "LED Flashlight", "28-day Battery", "Night Vision", "Stealth Mode", "Multi-GNSS"],
     score: 0,
+    amazonLink: "https://amzn.to/4gGQI8g",
   },
 ]
 
@@ -667,9 +703,6 @@ export function TrailWatchQuiz() {
                     <CardTitle className="text-xl">{watch.model}</CardTitle>
                     <Badge variant="outline">{watch.brand}</Badge>
                   </div>
-                  <Badge variant="secondary" className="text-lg px-3 py-1 mb-2">
-                    {watch.price}
-                  </Badge>
                   <CardDescription>{watch.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -684,6 +717,27 @@ export function TrailWatchQuiz() {
                       ))}
                     </div>
                   </div>
+
+                  {/* Amazon Buy Button */}
+                  {watch.amazonLink && (
+                    <div className="text-center mb-4">
+                      <Button 
+                        asChild 
+                        className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold"
+                        size="sm"
+                      >
+                        <a 
+                          href={watch.amazonLink} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-center gap-2"
+                        >
+                          <ExternalLink className="h-4 w-4" />
+                          Buy on Amazon
+                        </a>
+                      </Button>
+                    </div>
+                  )}
 
                   <div className="text-center">
                     <p className="text-sm text-muted-foreground">Learn more about this watch in our detailed reviews</p>
