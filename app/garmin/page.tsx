@@ -410,135 +410,107 @@ const garminWatches = [
 
 export default function GarminPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen flex flex-col">
       <Header />
 
+      <main className="flex-1">
         {/* Hero Section */}
-      <section className="relative py-20 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-blue-800/10"></div>
-        <div className="container mx-auto relative z-10">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Garmin Watches
-            </h1>
-            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Discover our complete collection of {garminWatches.length} Garmin watches with expert reviews, 
-              detailed comparisons, and direct Amazon purchasing links. Find your perfect fitness companion.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
-              <div className="flex items-center gap-2">
-                <MapPin className="h-4 w-4 text-blue-600" />
-                <span>GPS Navigation</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Heart className="h-4 w-4 text-red-500" />
-                <span>Health Monitoring</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Activity className="h-4 w-4 text-green-500" />
-                <span>Fitness Tracking</span>
-                </div>
-              <div className="flex items-center gap-2">
-                <Zap className="h-4 w-4 text-yellow-500" />
-                <span>Long Battery Life</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-16 px-4">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <section className="relative bg-gradient-to-br from-primary via-primary/95 to-primary/90 text-primary-foreground py-20 overflow-hidden">
+          <div className="absolute inset-0 bg-black/10"></div>
+          <div className="absolute top-0 right-0 w-96 h-96 bg-accent/20 rounded-full -translate-y-48 translate-x-48 blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/10 rounded-full translate-y-40 -translate-x-40 blur-3xl"></div>
+          
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="max-w-4xl mx-auto text-center">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance leading-tight">
+                Garmin
+                <span className="block text-accent">Collection</span>
+              </h1>
+              <p className="text-xl md:text-2xl text-primary-foreground/90 text-pretty mb-8 leading-relaxed max-w-3xl mx-auto">
+                Explore our complete Garmin collection with expert reviews, detailed comparisons, and 
+                <span className="text-accent font-semibold"> direct Amazon purchasing links for every model.</span>
+              </p>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
                 <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <MapPin className="h-8 w-8 text-blue-600" />
-                </div>
-              <h3 className="text-xl font-semibold mb-2">Advanced GPS</h3>
-              <p className="text-gray-600">Precise location tracking with multi-GNSS support for accurate navigation.</p>
+                  <div className="text-3xl font-bold text-accent">{garminWatches.length}</div>
+                  <div className="text-sm text-primary-foreground/80">Garmin Models</div>
                 </div>
                 <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="h-8 w-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Health Monitoring</h3>
-              <p className="text-gray-600">Comprehensive health tracking including heart rate, sleep, and stress monitoring.</p>
+                  <div className="text-3xl font-bold text-accent">Amazon</div>
+                  <div className="text-sm text-primary-foreground/80">Buy Links</div>
                 </div>
                 <div className="text-center">
-              <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Zap className="h-8 w-8 text-yellow-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Long Battery Life</h3>
-              <p className="text-gray-600">Extended battery life with solar charging options for continuous use.</p>
+                  <div className="text-3xl font-bold text-accent">Expert</div>
+                  <div className="text-sm text-primary-foreground/80">Reviews</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-accent">Live</div>
+                  <div className="text-sm text-primary-foreground/80">Comparisons</div>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-      {/* Watches Grid */}
-      <section className="py-16 px-4">
-        <div className="container mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Complete Garmin Collection</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Explore our curated selection of Garmin watches, each with detailed specifications and direct Amazon purchasing links.
+        {/* Watches Grid */}
+        <section className="py-20 bg-gradient-to-b from-background to-muted/20">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+                Complete Garmin Collection
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+                Browse our complete collection of Garmin watches with detailed specifications and direct Amazon purchase links.
               </p>
             </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {garminWatches.map((watch) => (
-              <Card key={watch.id} className="group hover:shadow-2xl transition-all duration-300 border-2 hover:border-blue-500/20 relative overflow-hidden">
-                <CardHeader className="text-center pb-3">
-                  <div className="aspect-square bg-gradient-to-br from-muted to-muted/50 rounded-xl mb-3 overflow-hidden group-hover:scale-105 transition-transform duration-300">
+              <Card key={watch.id} className="group hover:shadow-2xl transition-all duration-300 border-2 hover:border-accent/20 relative overflow-hidden">
+                <CardHeader className="text-center pb-4">
+                  <div className="aspect-square bg-gradient-to-br from-muted to-muted/50 rounded-xl mb-4 overflow-hidden group-hover:scale-105 transition-transform duration-300">
                     <img
                       src={watch.image || "/placeholder.svg"}
                       alt={watch.model}
                       className="w-full h-full object-cover"
                     />
-                    <div className="absolute top-2 right-2">
-                      <Badge variant="secondary" className="bg-blue-100 text-blue-800 font-semibold text-xs">
-                        {watch.priceDisplay}
-                      </Badge>
-                    </div>
                   </div>
-                  <div className="space-y-1">
-                    <Badge variant="outline" className="text-blue-600 border-blue-200 text-xs">
+                  <div className="flex items-center justify-center mb-2">
+                    <Badge variant="outline" className="font-semibold">
                       Garmin
                     </Badge>
-                    <CardTitle className="text-lg">{watch.model}</CardTitle>
-                    <CardDescription className="text-xs text-gray-600 line-clamp-2">
-                      {watch.description}
-                  </CardDescription>
                   </div>
+                  <CardTitle className="text-xl mb-2">{watch.model}</CardTitle>
+                  <CardDescription className="text-sm leading-relaxed">{watch.description}</CardDescription>
                 </CardHeader>
                 
-                <CardContent className="space-y-4">
+                <CardContent className="space-y-6">
                   {/* Specifications */}
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-xs text-gray-700 uppercase tracking-wide">Specifications</h4>
-                    <div className="grid grid-cols-1 gap-2 text-xs">
-                      <div>
-                        <span className="text-gray-500">Weight:</span>
-                        <span className="ml-1 font-medium">{watch.weight}</span>
+                  <div className="bg-muted/20 rounded-lg p-4">
+                    <h4 className="font-semibold mb-3 text-center">Specifications</h4>
+                    <div className="space-y-2 text-sm">
+                      <div className="flex justify-between items-center py-1 border-b border-muted">
+                        <span className="text-muted-foreground font-medium">Weight:</span>
+                        <span className="font-semibold">{watch.weight}</span>
                       </div>
-                      <div>
-                        <span className="text-gray-500">Water:</span>
-                        <span className="ml-1 font-medium">{watch.waterResistance}</span>
+                      <div className="flex justify-between items-center py-1 border-b border-muted">
+                        <span className="text-muted-foreground font-medium">Water Resistance:</span>
+                        <span className="font-semibold">{watch.waterResistance}</span>
                       </div>
-                      <div>
-                        <span className="text-gray-500">Battery:</span>
-                        <span className="ml-1 font-medium">{watch.batteryLife}</span>
+                      <div className="flex justify-between items-center py-1">
+                        <span className="text-muted-foreground font-medium">Battery Life:</span>
+                        <span className="font-semibold">{watch.batteryLife}</span>
                       </div>
                     </div>
                   </div>
 
-                  {/* Key Features */}
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-xs text-gray-700 uppercase tracking-wide">Key Features</h4>
-                    <div className="flex flex-wrap gap-1">
-                      {watch.features.slice(0, 3).map((feature, index) => (
-                        <Badge key={index} variant="secondary" className="text-xs px-2 py-1">
+                  {/* Features */}
+                  <div>
+                    <h4 className="font-semibold mb-3 text-center">Key Features</h4>
+                    <div className="flex flex-wrap gap-2 justify-center">
+                      {watch.features.slice(0, 4).map((feature, index) => (
+                        <Badge key={index} variant="secondary" className="text-xs">
                           {feature}
                         </Badge>
                       ))}
@@ -546,23 +518,23 @@ export default function GarminPage() {
                   </div>
 
                   {/* Special Features */}
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-xs text-gray-700 uppercase tracking-wide">Special Features</h4>
-                    <div className="flex flex-wrap gap-1">
+                  <div>
+                    <h4 className="font-semibold mb-3 text-center">Special Features</h4>
+                    <div className="flex flex-wrap gap-2 justify-center">
                       {watch.hasSolar && (
-                        <Badge variant="outline" className="text-yellow-600 border-yellow-200 text-xs px-2 py-1">
+                        <Badge variant="outline" className="text-accent border-accent/30">
                           <Zap className="h-3 w-3 mr-1" />
                           Solar
                         </Badge>
                       )}
                       {watch.hasBluetooth && (
-                        <Badge variant="outline" className="text-blue-600 border-blue-200 text-xs px-2 py-1">
+                        <Badge variant="outline" className="text-accent border-accent/30">
                           <Activity className="h-3 w-3 mr-1" />
                           Bluetooth
                         </Badge>
                       )}
                       {watch.hasGPS && (
-                        <Badge variant="outline" className="text-green-600 border-green-200 text-xs px-2 py-1">
+                        <Badge variant="outline" className="text-accent border-accent/30">
                           <MapPin className="h-3 w-3 mr-1" />
                           GPS
                         </Badge>
@@ -572,19 +544,19 @@ export default function GarminPage() {
 
                   {/* Amazon Buy Button */}
                   {watch.amazonLink && (
-                    <div className="text-center pt-3 border-t">
+                    <div className="text-center pt-4 border-t border-muted">
                       <Button
                         asChild
-                        className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold text-xs"
+                        className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold"
                         size="sm"
                       >
                         <a
                           href={watch.amazonLink}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center justify-center gap-1"
+                          className="flex items-center justify-center gap-2"
                         >
-                          <ExternalLink className="h-3 w-3" />
+                          <ExternalLink className="h-4 w-4" />
                           Buy on Amazon
                         </a>
                       </Button>
@@ -597,31 +569,33 @@ export default function GarminPage() {
             </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-800">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Find Your Perfect Garmin Watch?
-          </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Use our comparison tools to find the perfect Garmin watch for your needs and budget.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-              <Link href="/compare-trail-watches">
-                Compare Watches
-                <ArrowRight className="ml-2 h-5 w-5" />
-                    </Link>
-                  </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
-                    <Link href="/trail-watch-quiz">
-                Take Our Quiz
-                <Star className="ml-2 h-5 w-5" />
-                    </Link>
-                  </Button>
+        {/* CTA Section */}
+        <section className="py-20 bg-gradient-to-r from-accent/10 via-primary/5 to-accent/10 border-t border-border/50">
+          <div className="container mx-auto px-4">
+            <div className="text-center">
+              <div className="inline-flex items-center gap-2 bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium mb-6">
+                <span className="w-2 h-2 bg-accent rounded-full animate-pulse"></span>
+                Ready to Find Your Perfect Watch?
+              </div>
+              <h3 className="text-3xl font-bold mb-4">Take Our Interactive Quiz</h3>
+              <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+                Discover the ideal G-Shock or Garmin for your lifestyle in just 2 minutes. 
+                <span className="text-accent font-semibold"> Get personalized recommendations based on your needs.</span>
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button asChild size="lg" className="text-lg px-8 py-4 bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg hover:shadow-xl transition-all duration-300">
+                  <Link href="/trail-watch-quiz">
+                    Take the Quiz Now <ArrowRight className="ml-2 h-5 w-5" />
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="text-lg px-8 py-4 border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground">
+                  <Link href="/compare-garmin">Compare Models</Link>
+                </Button>
+              </div>
             </div>
           </div>
         </section>
+      </main>
 
       <Footer />
     </div>
