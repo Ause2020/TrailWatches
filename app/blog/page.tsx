@@ -65,6 +65,9 @@ export default function BlogPage() {
                 <button className="px-4 py-2 bg-background border border-border rounded-full text-sm font-medium hover:bg-muted transition-colors">
                   Budget
                 </button>
+                <button className="px-4 py-2 bg-background border border-border rounded-full text-sm font-medium hover:bg-muted transition-colors">
+                  Adventure
+                </button>
               </div>
             </div>
           </div>

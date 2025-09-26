@@ -8,6 +8,17 @@ import { Clock, ArrowRight, Calendar, TrendingUp } from "lucide-react"
 
 const blogArticles = [
   {
+    id: 7,
+    title: "Top Models: G-Shock and Garmin in Action - Smartwatches for Adventure 2025",
+    excerpt: "Discover the top G-Shock and Garmin smartwatches for adventure in 2025, featuring rugged MUDMASTER models, AI-powered fitness tracking, and cutting-edge outdoor technology.",
+    category: "Adventure",
+    readTime: "10 min read",
+    image: "/content/blogs/top-gshock-garmin-models-action-2025/images/portada.png",
+    slug: "top-gshock-garmin-models-action-2025",
+    publishDate: "2025-01-26",
+    featured: true,
+  },
+  {
     id: 1,
     title: "Best Trail Watches for Hiking in 2025: Rugged and Reliable Options",
     excerpt: "Discover the top 6 trail watches for hiking in 2025, featuring G-Shock and Garmin models with GPS, durability, and long battery life.",
